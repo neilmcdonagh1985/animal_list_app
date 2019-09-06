@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Endangered Animals App</title>
+    <script src="js/app.js">
+
+    </script>
+  </head>
+  <body>
+    <form id="new-item-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="name">Name</label>
+          <input type="text" id="name" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="species">Species</label>
+          <input type="text" id="species" required>
+        </div>
+
+        <div class="form-item">
+          <label for="continent">Continent</label>
+          <select id="category">
+            <option value="Europe">Europe</option>
+            <option value="Asia">Asia</option>
+            <option value="America">America</option>
+            <option value="Africa">Africa</option>
+            <option value="Australasia">Australasia</option>
+          </select>
+        </div>
+      </div>
+      <input type="submit" value="save">
+    </form>
+
+    <button id="delete-all">Delete All</button>
+
+    <h1>Endangered Animals List</h1>
+    <ul id="animal-list">
+    </ul>
+  </body>
+</html>
