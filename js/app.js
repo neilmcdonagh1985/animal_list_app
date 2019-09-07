@@ -22,15 +22,15 @@ const createAnimalListItem = function() {
   const newAnimal = document.createElement('li');
 
   const name = document.createElement('h2');
-  name.textContent = event.target.name.value;
+  name.textContent =`Animal: ${event.target.name.value}`;
   newAnimal.appendChild(name);
 
   const species = document.createElement('h3');
-  species.textContent = event.target.species.value;
+  species.textContent =`Species: ${event.target.species.value}`;
   newAnimal.appendChild(species);
 
   const category = document.createElement('p');
-  category.textContent = event.target.continent.value;
+  category.textContent =`Continent: ${event.target.continent.value}`;
   newAnimal.append(category);
 
   return newAnimal;
