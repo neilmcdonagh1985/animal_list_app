@@ -14,7 +14,8 @@ h1 {
 }
 
  li {
-   color: purple;
+   color: black;
+   font-family: 'Chilanka', cursive;
  }
 
  input {
@@ -25,10 +26,9 @@ h1 {
  label {
    padding: 5px;
    font-family: 'Chilanka', cursive;
- }
+  }
 
  button {
    margin-top: 10px;
    border: 2px solid black;
-   background-color: DarkGrey;
  }
