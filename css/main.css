@@ -1,3 +1,35 @@
 body {
   font-family: helvetica;
+  background-color: DarkOrange;
 }
+
+h1 {
+  color: DarkGreen;
+  font-family: 'Chilanka', cursive;
+  letter-spacing: 2px;
+}
+
+.form-item {
+  padding-top: 30px;
+  display: inline-flex;
+}
+
+ li {
+   color: purple;
+ }
+
+ input {
+   padding: 5px;
+   border: 2px solid black;
+ }
+
+ label {
+   padding: 5px;
+   font-family: 'Chilanka', cursive;
+ }
+
+ button {
+   margin-top: 10px;
+   border: 2px solid black;
+   background-color: DarkGrey;
+ }
