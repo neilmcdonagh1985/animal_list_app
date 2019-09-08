@@ -1,5 +1,5 @@
 body {
-  background-color: DarkOrange;
+  background-color: Orange;
 }
 
 h1 {
@@ -31,12 +31,9 @@ h1 {
  button {
    margin-top: 10px;
    border: 2px solid black;
-<<<<<<< HEAD
-=======
  }
 
  #submit-button {
    padding: 10px;
    margin-top: 10px;
->>>>>>> master
  }
