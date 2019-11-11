@@ -8,7 +8,7 @@ The image below shows an item being added to the list:
 
 <img width="600" alt="Screenshot 2019-11-11 at 17 05 35" src="https://user-images.githubusercontent.com/51781302/68606125-ab672500-04a5-11ea-9ee6-e3e2cff6af39.png">
 
-If you would like to see this app in actions, please follow these instructions:
+If you would like to see this app in action, please follow these instructions:
 
 Fork and Clone, then from the terminal, in the route folder:
 
