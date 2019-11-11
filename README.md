@@ -10,7 +10,7 @@ The image below shows an item being added to the list:
 
 If you would like to see this app in action, please follow these instructions:
 
-Fork and Clone, then from the terminal, in the route folder:
+## To Run ##
 
 $ open index.html
 
